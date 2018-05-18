@@ -29,8 +29,3 @@ We had experimented with various activation functions (relu, identity, sigmoid,t
 Since the gradients are small, Relu activation function is used which is said to reduce the vanishing gradient problem in Neural Networks and also makes training faster. The output layer uses softmax activation function because it is the best activation function for multi-class classification. 
 
 The choosing of number of layers and number of nodes in hidden layers is generally selected using experimentation. But in this case, there is no difference in the loss even if we changed the architecture. Therefore we go with a minimal two hidden layers and around 8 neurons per hidden layer.
-
-
-Contributors
--------------
-[Ronak Sisodia](https://github.com/ronak-07)
